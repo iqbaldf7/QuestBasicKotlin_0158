@@ -35,4 +35,12 @@ fun ConditionalStatment() {
     fun Perulangan() {
         println()
         println("== perulangan == ")
+
+        for ( i in 1..5) {
+            println("Perulangan ke-$i")
+        }
+        val cars = listOf("BMW", "Toyota", "Honda", "Audi")
+        for (car in cars) {
+            println("Car type: $car")
+        }
     }
