@@ -19,6 +19,7 @@ fun main() {
     val data4 = data.copy(email = "sahar@gmail.com")
     println(data4)
 
+
 }
 
 
